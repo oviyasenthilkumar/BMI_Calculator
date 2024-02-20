@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    margin: auto;
+    height: 90vh;
+    background-image: url(../img/bg.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+    padding-top: 10rem;
+    align-items: center;
+    padding-left: 20rem;
+}
+.container h1{
+    padding-bottom: 1rem;
+    font-family: "Alice", serif;
+}
+.calculator-outline{
+    border:none;
+    border-radius: 6px;
+    width:55%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background-color: #becdd1;
+    font-family: "Alice", serif;
+}
+.inputValues input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid #7e8587;
+    margin-left: 2rem;
+   
+}
+.inputValues, .genderValue, #height, #weight{
+    padding: 10px 0;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px;
+}
+#buttonEle{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(229, 193, 134);
+    cursor: pointer;
+}
+.refresh{
+    text-align: right; 
+}
+#refreshBtn{
+    padding:10px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#content{
+    text-align: center;
+    color: rgb(166, 75, 90);
+}
+#female, #male{
+    display: inline-block;
+    width: 10%;
+}
