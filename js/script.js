@@ -51,11 +51,11 @@ function calculate(){
         }
         var answer;
         if(lose<0){
-            answer = `gain your weight by ${Math.abs(lose).toFixed(2)}Kg to be healthy`
+            answer = `gain your weight by ${Math.abs(lose).toFixed(2)}Kg to get more healthy`
         }else if(lose == 0){
             answer = `your are healthy`
         }else {
-            answer = `lose your Weight by ${lose.toFixed(2)}Kg to be healthy`
+            answer = `lose your Weight by ${lose.toFixed(2)}Kg to get more healthy`
         }
     data = Math.round(bmiCalculate * 100)/100;
     cnt.innerHTML = `Your BMI = ${data} kg/m2`
